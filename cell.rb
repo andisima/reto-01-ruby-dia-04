@@ -1,9 +1,8 @@
 class Cell
   def initialize
-    
   end
-  def alive?
-   Cell == 1
+
+  def alive?(cell)
+    cell == 1
   end
-  
 end
